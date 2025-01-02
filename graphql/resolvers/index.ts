@@ -1,4 +1,5 @@
 import { sayHello } from "./mutations/say-hello";
+import { taskTest } from "./mutations/task-test";
 import { helloQuery } from "./queries/hello-query";
 
 export const resolvers = {
@@ -7,5 +8,6 @@ export const resolvers = {
   },
   Mutation: {
     sayHello,
+    taskTest
   },
 };
